@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>woordies!</title>
+</head>
+<body>
+  <h1>{{word["Word"]}}</h1>
+  <main>
+    {% for key, value in word.items() %}
+      <li><b>{{key}}</b>: {{value}}</li>
+    {% endfor %}      
+  </main>
+</body>
+</html>

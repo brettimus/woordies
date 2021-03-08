@@ -1,3 +1,10 @@
+# App-specific ignores
+SUBTLEX*
+*.zip
+
+# because i'm on a mac
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

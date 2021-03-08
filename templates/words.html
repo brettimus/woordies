@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>woordies!</title>
+</head>
+<body>
+  <h1>WAUW KIJK ES</h1>
+  <main>
+    <ul>
+      {% for word in words %}
+        <li><a href="/word/{{word}}">{{word}}</a></li>
+      {% endfor %}      
+    </ul>
+  </main>
+</body>
+</html>
